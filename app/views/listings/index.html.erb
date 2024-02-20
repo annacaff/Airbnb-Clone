@@ -1,0 +1,13 @@
+<div class="listings-container">
+  <h1 class="listings-title">Available Listings</h1>
+  <div class="listings-grid">
+    <% @listings.each do |listing| %>
+      <div class="listing-card">
+        <div class="listing-content">
+          <h5 class="listing-title"><%= listing.title %></h5>
+          <p class="listing-description"><%= listing.description %></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
