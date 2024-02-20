@@ -70,3 +70,4 @@ end
 
 gem 'devise'
 
+gem 'bcrypt', '~> 3.1.7'
